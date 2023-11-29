@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: white;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #deadd3 0%, #446dad 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #deadd3 0%, #446dad 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #deadd3 0%, #446dad 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #deadd3 0%, #446dad 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(to top, white 40%, #99A7DA 120%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(to top, white 40%, #99A7DA 120%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(to top, white 40%, #99A7DA 120%);
+		background-image: url("images/overlay.png"), linear-gradient(to top, white 40%, #99A7DA 120%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -122,6 +122,7 @@ input, select, textarea {
 	body {
 		background-color: white;
 		color: rgba(255, 255, 255, 0.65);
+		color: black;
 	}
 
 	body, input, select, textarea {
@@ -304,18 +305,22 @@ input, select, textarea {
 
 	input, select, textarea {
 		color: #ffffff;
+		color: black;
 	}
 
 	a:hover {
 		color: #ffffff;
+		color: black;
 	}
 
 	strong, b {
 		color: #ffffff;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
+		color: black;
 	}
 
 	blockquote {
@@ -2504,6 +2509,7 @@ input, select, textarea {
 
 	dl dt {
 		color: #ffffff;
+		color: black;
 	}
 
 /* Actions */
@@ -3351,6 +3357,8 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
+		border: 1px solid lightgray;
+		box-shadow: 0px 10px 20px rgba(70, 70, 70, 0.3);
 	}
 
 		#main input, #main select, #main textarea {
